@@ -277,7 +277,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -315,7 +315,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -340,16 +340,16 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_0
+      name: background
       rect:
         serializedVersion: 2
-        x: 1
-        y: 255
-        width: 145
-        height: 257
+        x: 0
+        y: 256
+        width: 144
+        height: 256
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 1, z: 3, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -362,13 +362,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_2
+      name: ground
       rect:
         serializedVersion: 2
-        x: 291
-        y: 455
-        width: 170
-        height: 57
+        x: 292
+        y: 456
+        width: 168
+        height: 56
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -384,13 +384,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_16
+      name: title
       rect:
         serializedVersion: 2
-        x: 350
-        y: 396
-        width: 91
-        height: 26
+        x: 351
+        y: 397
+        width: 89
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -406,13 +406,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_27
+      name: playButton
       rect:
         serializedVersion: 2
-        x: 353
-        y: 364
-        width: 54
-        height: 31
+        x: 354
+        y: 365
+        width: 52
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,13 +428,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_53
+      name: PipeDown
       rect:
         serializedVersion: 2
-        x: 55
-        y: 28
-        width: 28
-        height: 162
+        x: 56
+        y: 29
+        width: 26
+        height: 160
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -450,13 +450,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_54
+      name: PipeUp
       rect:
         serializedVersion: 2
-        x: 83
-        y: 28
-        width: 28
-        height: 162
+        x: 84
+        y: 29
+        width: 26
+        height: 160
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -472,13 +472,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_60
+      name: Flap01
       rect:
         serializedVersion: 2
-        x: 114
-        y: 118
-        width: 19
-        height: 14
+        x: 115
+        y: 119
+        width: 17
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -494,13 +494,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_64
+      name: Flap02
       rect:
         serializedVersion: 2
-        x: 114
-        y: 92
-        width: 19
-        height: 14
+        x: 115
+        y: 93
+        width: 17
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -516,13 +516,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_67
+      name: Flap03
       rect:
         serializedVersion: 2
-        x: 114
-        y: 66
-        width: 19
-        height: 14
+        x: 115
+        y: 67
+        width: 17
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -538,45 +538,23 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_81
+      name: gameOver
       rect:
         serializedVersion: 2
-        x: 160
-        y: 216
-        width: 9
-        height: 20
+        x: 395
+        y: 432
+        width: 96
+        height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61a7e5300c9cd2143a42350a414468fa
-      internalID: 323227701
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_1
-      rect:
-        serializedVersion: 2
-        x: 343
-        y: 241
-        width: 10
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 01e6706dfdfe4d344b9e2a15f1325cf8
-      internalID: -1239839980
+      spriteID: e02e0a201eb07ba488c189bff9ffd0ea
+      internalID: -1736411112
       vertices: []
       indices: 
       edges: []
@@ -595,8 +573,20 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Flap01: 1933258764018161309
+      Flap02: -4514805892046077403
+      Flap03: 191857608284174513
       Mobile - Flappy Bird - Version 12 Sprites_1: -1239839980
+      Mobile - Flappy Bird - Version 12 Sprites_3: -300019334
+      Mobile - Flappy Bird - Version 12 Sprites_4: 50645456
       Mobile - Flappy Bird - Version 12 Sprites_81: 323227701
+      PipeDown: 3070810552657499006
+      PipeUp: 3869963733588150954
+      background: 5003628964238269105
+      gameOver: -1736411112
+      ground: 7294014354058790825
+      playButton: 3255952901831296901
+      title: 8181548382722186305
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
