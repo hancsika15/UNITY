@@ -575,6 +575,7 @@ GameObject:
   - component: {fileID: 1972979639}
   - component: {fileID: 1972979641}
   - component: {fileID: 1972979640}
+  - component: {fileID: 1972979642}
   m_Layer: 0
   m_Name: Flappy
   m_TagString: Untagged
@@ -784,6 +785,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.17, y: 0.12}
   m_EdgeRadius: 0
+--- !u!114 &1972979642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972979635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14418192fe79ea849b093514016eac08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _velocity: 1.5
+  _rotationSpeed: 10
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
